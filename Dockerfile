@@ -1,7 +1,7 @@
-FROM maven:3.6.0-jdk-12-alpine
+FROM larskghf/oracle-java-jdk8
 
 LABEL "name"="Maven CLI Action"
-LABEL "maintainer"="Luca Feger <luca@lucafeger.de>"
+LABEL "maintainer"="sirolf2009 <masterflappie@gmail.com>"
 LABEL "version"="1.0.0"
 
 LABEL "com.github.actions.name"="GitHub Action for Maven"
