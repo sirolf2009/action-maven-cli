@@ -1,4 +1,4 @@
-FROM larskghf/oracle-java-jdk8
+FROM shinyay/docker-mvn-jdk8:3.5.0
 
 LABEL "name"="Maven CLI Action"
 LABEL "maintainer"="sirolf2009 <masterflappie@gmail.com>"
